@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+
+        <!-- Header -->
+        <header class="header">
+            <div class="header__navbar-controls">
+                <div class="header__navbar-logo">
+                    <a href="#">
+                        <img src="./assets/img/logo.jpg" alt="Logo" class="header__navbar-img">
+                    </a>
+                </div>
+
+                    <div class="header__navbar-menu">
+                        <a href="#" class="header__navbar-link">home</a>
+                        <a href="#about" class="header__navbar-link">members and music</a>
+                        <a href="#members" class="header__navbar-link">about</a>
+                        <a href="#music" class="header__navbar-link">b-side</a>
+                    </div>
+            </div>
+
+            <div class="header__navbar-option">
+                <select name="language" class="header__navbar-language">
+                    <option value="lang">Language <i class="header__navbar-icon fa-solid fa-chevron-down"></i></option>
+                     <option value="lang">English</option>
+                     <option value="lang">Vietnamese</option>
+                </select>
+
+                <div class="header__navbar-sign">
+                    <a href="" class="header__navbar-link header__navbar-link--separate">Login</a>
+                    <a href="" class="header__navbar-link">Sign up</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Slider -->
+        <div class="slider"></div>
+
+        <div class="container">
+
+            <!-- About -->
+            <div id="about" class="content-section">
+                <h2 class="section-heading">ABOUT</h2>
+          
+                <div class="members-list">
+                    <h3 class="member-title">MY BIAS</h3>
+                    <div class="member-body">
+                        <div id="my-bias" class="member-wrapper-more">
+                            <img src="./assets/img/members/rosiebias.jpg" alt="Rosie" class="member-img-more">
+                            <img src="https://c-fa.cdn.smule.com/rs-s79/arr/08/9f/61ad741f-2b30-4204-ab3d-1fa2bb70d8e4_1024.jpg" alt="Rosie" class="member-img-more member-img--hover">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="members-list">
+                    <h3 class="member-title">MEMBERS</h3>
+                    <div class="member-body">
+                        <div class="member-wrapper">
+                            <img src="./assets/img/members/rosie.jpg" alt="Rosé" class="member-img js-rosie">
+
+                            <div class="member-info">
+                                <span class="member-num">1997</span>
+                                <span class="member-name">ROSEANNE PARK</span>
+                            </div>
+                        </div>
+                        <div class="member-wrapper">
+                            <img src="./assets/img/members/lisa.jpg" alt="Lisa" class="member-img js-lisa">
+
+                            <div class="member-info">
+                                <span class="member-num">1997</span>
+                                <span class="member-name">LALISA MANOBAN</span>
+                            </div>
+                        </div>
+                        <div class="member-wrapper">
+                            <img src="./assets/img/members/jisoo.jpg" alt="Jisoo" class="member-img js-jisoo">
+
+                            <div class="member-info">
+                                <span class="member-num">1995</span>
+                                <span class="member-name">KIM JISOO</span>
+                            </div>
+                        </div>
+                        <div class="member-wrapper">
+                            <img src="https://cdn.zenquiz.net/external/2021/06/20/14/400a5b50-d1d2-11eb-b711-050901070303-compressed.jpg" alt="" class="member-img js-jennie">
+
+                            <div class="member-info">
+                                <span class="member-num">1996</span>
+                                <span class="member-name">KIM JENNIE</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="members-list">
+                    <h3 class="member-title">OT4</h3>
+                    <div class="member-body">
+                        <div class="member-wrapper">
+                            <img src="./assets/img/album/icecream.jpg" alt="Ice Cream" class="member-img">
+                        </div>
+                        <div class="member-wrapper">
+                            <img src="./assets/img/album/ot4_1.jpg" alt="OT4" class="member-img">
+                        </div>
+                        <div class="member-wrapper">
+                            <img src="./assets/img/album/ot4_2.jpg" alt="OT4" class="member-img">
+                        </div>
+                        <div class="member-wrapper">
+                            <img src="./assets/img/album/ot4_3.jpg" alt="OT4" class="member-img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="members-list">
+                    <h3 class="member-title">SOLO</h3>  
+                    <div class="member-body">
+                        <div class="member-wrapper">
+                            <img src="./assets/img/album/solo.jpg" alt="Solo" class="member-img js-watch-solo">
+                        </div>
+                        <div class="member-wrapper">
+                            <img src="./assets/img/album/otg.jpg" alt="On The Ground" class="member-img js-watch-otg">
+                        </div>
+                        <div class="member-wrapper">
+                            <img src="./assets/img/album/lalisa.jpg" alt="Lalisa" class="member-img js-watch-ls">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Map section -->
+            <div id="members" class="map-section">
+                <img src="./assets/img/slider/slider2.jpg" alt="Map">
+            </div>
+
+            <!-- Info section -->
+            <div class="info-section">
+                <div class="info-bio">
+                    <h3 class="info-heading">BIOGRAPHY</h3>
+                    <p class="info-text">
+                        Blackpink (Hangul: 블랙핑크), stylized as BLACKPINK or BLΛƆKPIИK, is a South Korean girl group formed by YG Entertainment and the first girl group to debut under the same entertainment company seven years after 2NE1. The group consists of four members: Jennie, Lisa, Jisoo, and Rosé . They officially debuted on August 8, 2016 with the single album Square One . Blackpink fans are called "Blink". The fandom name Blink means the fans start with Blackpink and end with Blackpink.
+                    </p>
+                </div>
+
+                <div class="info-detail">
+                    <div class="info-list">
+                        <div class="info-item">
+                            <div class="info-title">GROUP</div>
+                            <div class="info-main">Blackpink</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-title">DEBUT</div>
+                            <div class="info-time">2016</div>
+                        </div>
+                    </div>
+                    <div class="info-list">
+                        <div class="info-item">
+                            <div class="info-title">COUNTRY</div>
+                            <div class="info-country">
+                                <img class="info-img" src="https://banner2.cleanpng.com/20180403/lje/kisspng-flag-of-south-korea-flag-of-north-korea-korean-5ac35468c1c983.6091175115227505687938.jpg" alt=""> KOREA
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-title">HIGHEST VIEWS NOW</div>
+                            <div class="info-time">DDU-DU DDU-DU <br> <span class="info-add">15 June 2018</span></div>
+                        </div>
+                    </div>
+                    <div class="info-list">
+                        <div class="info-item">
+                            <div class="info-title">LOGAN</div>
+                            <div class="info-time">Blackpink in your area</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Music section -->
+
+            <div id="music" class="music-section">
+                <div class="music-wrapper-heading">
+                    <h2 class="section-heading">B-SIDE</h2>
+                </div>
+
+                <div class="musics-list">
+                    <div class="music-item">
+                        <img src="./assets/img/music/prettysavage.jpg" alt="Pretty Savage" class="music-img">
+
+                        <div class="music-name">PRETTY SAVAGE</div>
+                    </div>
+                    <div class="music-item">
+                        <img src="./assets/img/music/lovetohateme.jpg" alt="Love To Hate Me" class="music-img">
+                        
+                        <div class="music-name">Love To Hate Me</div>
+                    </div>
+                    <div class="music-item">
+                        <img src="./assets/img/music/really.jpg" alt="Really" class="music-img">
+                        
+                        <div class="music-name">REALLY</div>
+                    </div>
+                    <div class="music-item">
+                        <img src="./assets/img/music/seeyoulater.jpg" alt="See You Later" class="music-img">
+                        
+                        <div class="music-name">See You Later</div>
+                    </div>
+                    <div class="music-item">
+                        <img src="./assets/img/music/youneverknow.jpg" alt="You Never Know" class="music-img">
+                        
+                        <div class="music-name">You Never Know</div>
+                    </div>
+                    <div class="music-item">
+                        <img src="./assets/img/music/hopenot.jpg" alt="Hope Not" class="music-img">
+                        
+                        <div class="music-name">Hope Not</div>
+                    </div>
+                    <div class="music-item">
+                        <img src="./assets/img/music/kickit.jpg" alt="Kick It" class="music-img">
+                        
+                        <div class="music-name">Kick It</div>
+                    </div>
+                    <div class="music-item">
+                        <img src="./assets/img/music/gone.jpg" alt="Bet You Wanna" class="music-img">
+
+                        <div class="music-name">Bet You Wanna</div>
+                    </div>
+                    <div class="music-item">
+                        <img src="./assets/img/music/crazyoveryou.jpg" alt="Bet You Wanna" class="music-img">
+
+                        <div class="music-name">Crazy Over You</div>
+                    </div>
+                    <div class="music-item">
+                        <img src="./assets/img/music/money.jpg" alt="Kiss And Make Up" class="music-img">
+
+                        <div class="music-name">kiss and make up</div>
+                    </div>
+                </div>
+
+
+                   <!-- MODAL BSIDE -->
+            <div class="main js-main">
+                <div class="main-container">
+                    <header class="header-bside">
+                        <div class="volume">
+                            <i class="volume_icon fa-solid fa-volume-high" id="volume_icon" onclick="mute_sound()"></i>
+                            <div class="volume_hidden">
+                                <input type="range" min="0" max="100" value="90" onchange="volume_change()" id="volume">
+                                <p id="volume_show">Âm lượng: 90%</p>
+                            </div>
+                        </div>
+            
+                        <h3>BlackPink B-Side</h3>
+                        <div class="quantity">
+                            <p id="present">1</p>
+                            <p>/</p>
+                            <p id="total">13</p>
+                        </div>
+                    </header>
+            
+                    <div class="track_img-area">
+                        <img id="track_image" alt="" class="header__img">
+                    </div>
+            
+                    <div class="label">
+                        <h3 id="title">Pretty Savage</h3>
+                        <p id="artist">BLACKPINK</p>
+                    </div>
+                    <div id="duration">
+                        <input type="range" min="0" max="100" value="0" class="range" id="duration_slider" onchange="change_duration()">
+                    </div>
+                    
+            
+                        <div class="timer">
+                            <div class="duration">0:00</div>
+                            <div class="remaining">3:34</div>
+                        </div>
+            
+                        <div class="controls">
+                            <button id="auto" onclick="autoplay_switch()"><i class="controls__icon controls__icon-circle fa-solid fa-circle-notch"></i></button>
+                            <button onclick="previous_song()" id="pre"><i class="controls__icon fa-solid fa-backward-step"></i></button>
+                            <div class="play_inner">
+                                <button onclick="justplay()" id="play"><i class="play controls__icon fa-solid fa-play"></i></button>
+                            </div>
+                            <button onclick="next_song()" id="next"><i class="controls__icon fa-solid fa-forward-step"></i></button>
+                            <button><i class="controls__icon controls__icon-circle fa-solid fa-circle-notch"></i></button>
+                        </div>
+                </div>
+            </div>
+                    <!-- MODAL BSIDE -->
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-wrapper">
+                <div class="footer-item">
+                    <img src="https://www.kindpng.com/picc/m/468-4682063_rose-blackpink-queen-rose-blackpink-png.png" alt="" class="footer-img">
+                </div>
+                <div class="footer-item">
+                    <img src="https://banner2.cleanpng.com/20190719/csv/kisspng-lisa-blackpink-portable-network-graphics-k-pop-as-png-avatan-plus-5d31c919b06708.8410250715635438337226.jpg" alt="" class="footer-img">
+                </div>
+                <div class="footer-item">
+                    <img src="https://banner2.cleanpng.com/20180719/jcg/kisspng-kim-ji-soo-blackpink-k-pop-hair-coloring-black-pink-kpop-5b50889932fb79.7040686715320045052088.jpg" alt="" class="footer-img">
+                </div>
+                <div class="footer-item">
+                    <img src="https://png.pngitem.com/pimgs/s/16-162924_jennie-blackpink-and-kpop-image-blackpink-jennie-fan.png" alt="" class="footer-img">
+                </div>
+            </div>
+
+            <div class="footer-socials">
+                <i class="footer-socials-icon fa-brands fa-facebook-f"></i>
+            </div>
+            <div class="footer-socials">
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="footer-socials">
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+            
+        </footer>
+
+        <!-- MODAL of Rosie -->
+        <div class="modal-rosie js-modal-rosie">
+            <div class="modal-container-rosie js-modal-container-rosie">
+                <div class="modal-wrap-rosie">
+                    <img src="./assets/img/members/modalr.jpg" alt="Rosé" class="col-half modal-img-rosie">
+                </div>
+
+                <div class="modal-wrap-rosie">
+                    <ul class="modal-list-rosie">
+                        <li class="modal-item-rosie">
+                            <i class="fa-solid fa-heart"></i>
+                            ROSÉ
+                            <i class="fa-solid fa-heart"></i>
+                        </li>
+                        <li class="modal-item-rosie">real name: park chaeyoung</li>
+                        <li class="modal-item-rosie">KOREAN NAME: 박채영</li>
+                        <li class="modal-item-rosie">NICK NAME: ROSE, ROSIE</li>
+                        <li class="modal-item-rosie">ROLE: MAIN VOCALIST, LEAD DANCER</li>
+                        <li class="modal-item-rosie">DATE OF BIRTH: 11/02/1997</li>
+                        <li class="modal-item-rosie">ZODIAC: AQUARIUS</li>
+                        <li class="modal-item-rosie">HOMETOWN: AUCKLAND, NEW ZEALAND</li>
+                        <li class="modal-item-rosie">HEIGHT: 1.68 M</li>
+                        <li class="modal-item-rosie">WEIGHT: 44 KG</li>
+                        <li class="modal-item-rosie">PERSONAL ACCOUNTS: <a href="https://www.instagram.com/roses_are_rosie/" class="modal-link">INSTAGRAM</a>, <a href="https://www.facebook.com/blackpink.rosie" class="modal-link">FACEBOOK</a>, <a href="https://www.tiktok.com/@roses_are_rosie" class="modal-link">TIKTOK</a>, <a href="https://www.youtube.com/c/ROS%C3%89Official_BLACKPINK" class="modal-link">YOUTUBE</a></li>
+                        <li class="modal-item-rosie">MV SOLO: <a href="https://www.youtube.com/watch?v=CKZvWhCqx1s" class="modal-link">ON THE GROUND</a>, <a href="https://www.youtube.com/watch?v=K9_VFxzCuQ0" class="modal-link">GONE</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+             <!-- MODAL of Lisa -->
+             <div class="modal-lisa js-modal-lisa">
+                <div class="modal-container-lisa js-modal-container-lisa">
+                    <div class="modal-wrap-lisa">
+                        <img src="./assets/img/members//lisaa.jpg" alt="Lisa" class="col-half modal-img-lisa">
+                    </div>
+    
+                    <div class="modal-wrap-lisa">
+                        <ul class="modal-list-lisa">
+                            <li class="modal-item-lisa">
+                                <i class="fa-solid fa-heart"></i>
+                                LISA
+                                <i class="fa-solid fa-heart"></i>
+                            </li>
+                            <li class="modal-item-lisa">REAL NAME: LALISA MANOBAN</li>
+                            <li class="modal-item-lisa">THAI NAME: ลลิสา มโนบาล</li>
+                            <li class="modal-item-lisa">KOREAN NAME: 라리사 마노반</li>
+                            <li class="modal-item-lisa">NICK NAME: LILI, LALICE, LALIZ, POKPAK</li>
+                            <li class="modal-item-lisa">ROLE: MAIN DANCER, LEAD RAPPER, SUB VOCALIST, MAKNAE</li>
+                            <li class="modal-item-lisa">DATE OF BIRTH: 27/03/1997</li>
+                            <li class="modal-item-lisa">ZODIAC: ARIES</li>
+                            <li class="modal-item-lisa">HOMETOWN: BURIRAM, THAILAND</li>
+                            <li class="modal-item-lisa">HEIGHT: 1.67 M</li>
+                            <li class="modal-item-lisa">WEIGHT: 44.7 KG</li>
+                            <li class="modal-item-lisa">PERSONAL ACCOUNTS: <a href="https://www.instagram.com/lalalalisa_m/" class="modal-link">INSTAGRAM</a>, <a href="https://www.youtube.com/c/LilifilmOfficial_BLACKPINK" class="modal-link">YOUTUBE</a></li>
+                            <li class="modal-item-lisa">MV SOLO: <a href="https://www.youtube.com/watch?v=awkkyBH2zEo" class="modal-link">LALISA</a>, <a href="https://www.youtube.com/watch?v=dNCWe_6HAM8" class="modal-link">MONEY</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+                 <!-- MODAL of Jisoo -->
+        <div class="modal-jisoo js-modal-jisoo">
+            <div class="modal-container-jisoo js-modal-container-jisoo">
+                <div class="modal-wrap-jisoo">
+                    <img src="./assets/img/members/jisooo.jpeg" alt="Jisoo" class="col-half modal-img-jisoo">
+                </div>
+
+                <div class="modal-wrap-jisoo">
+                    <ul class="modal-list-jisoo">
+                        <li class="modal-item-jisoo">
+                            <i class="fa-solid fa-heart"></i>
+                            JISOO
+                            <i class="fa-solid fa-heart"></i>
+                        </li>
+                        <li class="modal-item-jisoo">REAL NAME: KIM JISOO</li>
+                        <li class="modal-item-jisoo">KOREAN NAME: 김지수</li>
+                        <li class="modal-item-jisoo">NICK NAME: CHI CHOO, JICHU</li>
+                        <li class="modal-item-jisoo">ROLE: LEAD VOCALIST, VISUAL</li>
+                        <li class="modal-item-jisoo">DATE OF BIRTH: 03/01/1995</li>
+                        <li class="modal-item-jisoo">ZODIAC: CAPRICORN</li>
+                        <li class="modal-item-jisoo">HOMETOWN: GYEONGGI, KOREA</li>
+                        <li class="modal-item-jisoo">HEIGHT: 1.62 M</li>
+                        <li class="modal-item-jisoo">WEIGHT: 44 KG</li>
+                        <li class="modal-item-jisoo">PERSONAL ACCOUNTS: <a href="https://www.instagram.com/sooyaaa__/" class="modal-link">INSTAGRAM</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+             <!-- MODAL of Jennie -->
+             <div class="modal-jennie js-modal-jennie">
+                <div class="modal-container-jennie js-modal-container-jennie">
+                    <div class="modal-wrap-jennie">
+                        <img src="./assets/img/members/jenniee.jpg" alt="Jennie" class="col-half modal-img-jennie">
+                    </div>
+    
+                    <div class="modal-wrap-jennie">
+                        <ul class="modal-list-jennie">
+                            <li class="modal-item-jennie">
+                                <i class="fa-solid fa-heart"></i>
+                                JENNIE
+                                <i class="fa-solid fa-heart"></i>
+                            </li>
+                            <li class="modal-item-jennie">REAL NAME: KIM JENNIE</li>
+                            <li class="modal-item-jennie">KOREAN NAME: 김제니</li>
+                            <li class="modal-item-jennie">NICK NAME: NINI, JENDEUKIE</li>
+                            <li class="modal-item-jennie">ROLE: MAIN RAPPER, LEAD VOCALIST</li>
+                            <li class="modal-item-jennie">DATE OF BIRTH: 16/01/1996</li>
+                            <li class="modal-item-jennie">ZODIAC: CAPRICORN</li>
+                            <li class="modal-item-jennie">HOMETOWN: SEOUL, KOREA</li>
+                            <li class="modal-item-jennie">HEIGHT: 1.63 M</li>
+                            <li class="modal-item-jennie">WEIGHT: 45 KG</li>
+                            <li class="modal-item-jennie">PERSONAL ACCOUNTS: <a href="https://www.instagram.com/jennierubyjane/" class="modal-link">INSTAGRAM</a>, <a href="https://www.youtube.com/c/JennierubyjaneOfficial_BLACKPINK" class="modal-link">YOUTUBE</a></li>
+                            <li class="modal-item-jennie">MV SOLO: <a href="https://www.youtube.com/watch?v=b73BI9eUkjM" class="modal-link">SOLO</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-solo js-modal-solo">
+                <div class="modal-container-solo js-modal-container-solo">
+                    <video src="./assets/mv/y2meta.com - JENNIE - 'SOLO' M_V.mp4" width="900" loop controls class="modal-mv-solo js-modal-mv-solo"></video>
+                </div>
+            </div>
+
+            <div class="modal-ls js-modal-ls">
+                <div class="modal-container-ls js-modal-container-ls">
+                    <video src="./assets/mv/y2meta.com - LISA - 'LALISA' M_V.mp4" width="900" loop controls class="modal-mv-ls js-modal-mv-ls"></video>
+                </div>
+            </div>
+
+            <div class="modal-otg js-modal-otg">
+                <div class="modal-container-otg js-modal-container-otg">
+                    <video src="./assets/mv/ROSÉ - 'On The Ground' M-V.mp4" width="900" loop controls class="modal-mv-otg js-modal-mv-otg"></video>
+                </div>
+            </div>
+    </div>
+
+    <!-- Slider like The Band -->
+    <script>
+        function changeSlider () {
+
+            const images = [
+                'url("/assets/img/slider/slider1.jpg")',
+                'url("/assets/img/slider/slider3.jpg")',
+                'url("/assets/img/slider/slider4.jpg")',
+                'url("/assets/img/slider/slider5.jpg")'
+            ]
+
+            const slider = document.querySelector('.slider')
+            const img = images[Math.floor(Math.random() * 
+            images.length)]; 
+            slider.style.backgroundImage = img;
+        }
+
+        setInterval(changeSlider, 2000)
+    </script>
+
+    <!-- My Bias -->
+      <!-- Audio of Icon -->
+      <audio loop controls id="her-song">
+        <source src="./assets/audio/y2meta.com - Black Pink's Rosé singing cut (G-dragon -Without You) (128 kbps).mp3">
+    </audio>
+
+    <script>
+        const myBias = document.getElementById('my-bias'); 
+        const herSong = document.getElementById('her-song'); 
+
+        function listenRosie () {
+            if (herSong.paused) {
+               herSong.play();
+           } 
+        }
+
+        function offRosie() {
+            herSong.pause();
+        }
+
+        myBias.addEventListener('mouseenter', listenRosie)
+        myBias.addEventListener('mouseleave', offRosie)
+    </script>
+
+    <!-- Modal members Rosie-->
+    <script>
+        const Rosie = document.querySelector('.js-rosie');
+        const modalRosie = document.querySelector('.js-modal-rosie');
+        const modalContainerRosie = document.querySelector('.js-modal-container-rosie');
+
+        function showRosie () {
+            modalRosie.classList.add('open');
+        }
+
+        function hideRosie () {
+            modalRosie.classList.remove('open'); 
+        }
+
+        Rosie.addEventListener('click', showRosie); 
+        modalRosie.addEventListener('click', hideRosie); 
+        modalContainerRosie.addEventListener('click', function(event) {
+            event.stopPropagation(); 
+        })
+
+    </script>
+
+    <!-- Modal members Lisa -->
+    <script>
+        const Lisa = document.querySelector('.js-lisa');
+        const modalLisa = document.querySelector('.js-modal-lisa');
+        const modalContainerLisa = document.querySelector('.js-modal-container-lisa');
+
+        function showLisa () {
+            modalLisa.classList.add('open');
+        }
+
+        function hideLisa () {
+            modalLisa.classList.remove('open'); 
+        }
+
+        Lisa.addEventListener('click', showLisa); 
+        modalLisa.addEventListener('click', hideLisa); 
+        modalContainerLisa.addEventListener('click', function(event) {
+            event.stopPropagation(); 
+        })
+
+    </script>
+
+    <!-- Modal members Jisoo -->
+    <script>
+        const Jisoo = document.querySelector('.js-jisoo');
+        const modalJisoo = document.querySelector('.js-modal-jisoo');
+        const modalContainerJisoo = document.querySelector('.js-modal-container-jisoo');
+
+        function showJisoo () {
+            modalJisoo.classList.add('open');
+        }
+
+        function hideJisoo () {
+            modalJisoo.classList.remove('open'); 
+        }
+
+        Jisoo.addEventListener('click', showJisoo); 
+        modalJisoo.addEventListener('click', hideJisoo); 
+        modalContainerJisoo.addEventListener('click', function(event) {
+            event.stopPropagation(); 
+        })
+
+    </script>
+
+    <!-- Modal members Jennie -->
+    <script>
+        const Jennie = document.querySelector('.js-jennie');
+        const modalJennie = document.querySelector('.js-modal-jennie');
+        const modalContainerJennie = document.querySelector('.js-modal-container-jennie');
+
+        function showJennie () {
+            modalJennie.classList.add('open');
+        }
+
+        function hideJennie () {
+            modalJennie.classList.remove('open'); 
+        }
+
+        Jennie.addEventListener('click', showJennie); 
+        modalJennie.addEventListener('click', hideJennie); 
+        modalContainerJennie.addEventListener('click', function(event) {
+            event.stopPropagation(); 
+        })
+
+    </script>
+
+     <!-- Js modal MV ALL -->
+     <script>
+        const watchSOLO = document.querySelector('.js-watch-solo')
+        const modalSOLO = document.querySelector('.js-modal-solo')
+        const modalContainerSOLO = document.querySelector('.js-modal-container-solo')
+
+        function showMV () {
+            modalSOLO.classList.add('open')
+        }
+
+        function hideMV () {
+            modalSOLO.classList.remove('open')
+        }
+
+        watchSOLO.addEventListener('click', showMV)
+        modalSOLO.addEventListener('click', hideMV)
+        modalContainerSOLO.addEventListener('click', function(event) {
+            event.stopPropagation();
+        })
+    </script>
+
+<script>
+    const watchOTG = document.querySelector('.js-watch-otg')
+    const modalOTG = document.querySelector('.js-modal-otg')
+    const modalContainerOTG = document.querySelector('.js-modal-container-otg')
+
+    function showMV () {
+        modalOTG.classList.add('open')
+    }
+
+    function hideMV () {
+        modalOTG.classList.remove('open')
+    }
+
+    watchOTG.addEventListener('click', showMV)
+    modalOTG.addEventListener('click', hideMV)
+    modalContainerOTG.addEventListener('click', function(event) {
+        event.stopPropagation();
+    })
+</script>
+
+<script>
+    const watchLS = document.querySelector('.js-watch-ls')
+    const modalLS = document.querySelector('.js-modal-ls')
+    const modalContainerLS = document.querySelector('.js-modal-container-ls')
+
+    function showMV () {
+        modalLS.classList.add('open')
+    }
+
+    function hideMV () {
+        modalLS.classList.remove('open')
+    }
+
+    watchLS.addEventListener('click', showMV)
+    modalLS.addEventListener('click', hideMV)
+    modalContainerLS.addEventListener('click', function(event) {
+        event.stopPropagation();
+    })
+</script>
+
+<script src="./assets/css/main.js"></script>
+
+</body>
+</html>
