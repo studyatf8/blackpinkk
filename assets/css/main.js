@@ -262,3 +262,22 @@ function formatTimer (number) {
     const seconds = Math.floor(number - minutes * 60); 
     return `${minutes < 10 ? '0' + minutes : minutes}:${seconds < 10 ? '0' + seconds : seconds}`;
 }
+
+function changeSlider () {
+
+    const images = [
+        'url("assets/img/slider/slider1.jpg")',
+        'url("assets/img/slider/slider3.jpg")',
+        'url("assets/img/slider/slider4.jpg")',
+        'url("assets/img/slider/slider5.jpg")'
+    ];
+
+    var imgLength = images.length; 
+
+    const slider = document.querySelector('.slider')
+    const img = images[Math.floor(Math.random() * 
+    imgLength)]; 
+    slider.style.backgroundImage = img;
+}
+
+setInterval(changeSlider, 1500);
